@@ -14,7 +14,7 @@ request('http://i.ytimg.com/vi/HrnBrOytj-A/0.jpg').pipe(fs.createWriteStream('ra
 */
 
 /*
-// Example 3: We can download a file, and capture when its done withe finish event
+// Example 3: We can download a file, and capture when its done with finish event
 var file = fs.createWriteStream('rami.jpg');
 request('http://i.ytimg.com/vi/HrnBrOytj-A/0.jpg').pipe(file);
 file.on('finish',function(){
