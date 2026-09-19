@@ -8,7 +8,7 @@
     "email": ""
   },
   "dependencies": {
-    "express": "4.16.0",
+    "express": "4.20.0",
     "jade": "*",
     "stylus": "*",
     "snyk": "^1.99.0"
